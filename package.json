@@ -6,7 +6,6 @@
   "dependencies": {
     "minimist": "^1.2.0",
     "nanoassert": "^1.1.0",
-    "np": "^3.0.4",
     "xml-js": "^1.6.7"
   },
   "scripts": {
@@ -30,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/ionic-team/sync-cordova-xml/issues"
   },
-  "homepage": "https://github.com/ionic-team/sync-cordova-xml#readme"
+  "homepage": "https://github.com/ionic-team/sync-cordova-xml#readme",
+  "devDependencies": {
+    "np": "^11.0.2"
+  }
 }
