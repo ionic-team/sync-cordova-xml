@@ -1,4 +1,4 @@
-# `sync-cordova-xml2`
+# `sync-cordova-xml3`
 
 > Sync Cordova's XML files with your package.json
 > This is a fork of sync-cordova-xml updated to use xml-js
@@ -6,7 +6,7 @@
 ## Usage
 
 ```js
-var sync = require('sync-cordova-xml')
+var sync = require('sync-cordova-xml3')
 
 sync(require('./package.json'), xmlString, 'plugin')
 
@@ -39,7 +39,7 @@ For plugins it will additionally attempt to set:
 ## CLI
 
 ```sh
-sync-cordova-xml [--plugin|--config] [--output=plugin.xml] package.json plugin.xml
+sync-cordova-xml3 [--plugin|--config] [--output=plugin.xml] package.json plugin.xml
 ```
 
 **NOTE**: For convenience the CLI will guess the mode from the 2nd argument
@@ -49,7 +49,7 @@ of the flags.
 You can add this script to your `package.json` for automatic sync on each `npm version`:
 
 ```json
-"version": "sync-cordova-xml package.json config.xml --output=config.xml && git add config.xml"
+"version": "sync-cordova-xml3 package.json config.xml --output=config.xml && git add config.xml"
 ```
 
 ## API
@@ -59,7 +59,7 @@ You can add this script to your `package.json` for automatic sync on each `npm v
 ## Install
 
 ```sh
-npm install sync-cordova-xml
+npm install sync-cordova-xml3
 ```
 
 ## License

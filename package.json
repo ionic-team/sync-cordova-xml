@@ -1,6 +1,6 @@
 {
-  "name": "sync-cordova-xml2",
-  "version": "0.0.3",
+  "name": "sync-cordova-xml3",
+  "version": "0.0.1",
   "description": "Sync Cordova's XML files with your package.json mo bettah (Updated Fork of https://github.com/nphyatt/sync-cordova-xml/issues)",
   "main": "index.js",
   "dependencies": {
@@ -16,11 +16,11 @@
     "release": "np"
   },
   "bin": {
-    "sync-cordova-xml2": "bin/sync.js"
+    "sync-cordova-xml3": "bin/sync.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nphyatt/sync-cordova-xml.git"
+    "url": "git+https://github.com/ionic-team/sync-cordova-xml.git"
   },
   "keywords": [],
   "author": "Emil Bay <github@tixz.dk>",
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nphyatt/sync-cordova-xml/issues"
+    "url": "https://github.com/ionic-team/sync-cordova-xml/issues"
   },
-  "homepage": "https://github.com/nphyatt/sync-cordova-xml#readme"
+  "homepage": "https://github.com/ionic-team/sync-cordova-xml#readme"
 }
