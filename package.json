@@ -7,10 +7,8 @@
     "minimist": "^1.2.0",
     "nanoassert": "^1.1.0",
     "np": "^3.0.4",
-    "parse-author": "^2.0.0",
     "xml-js": "^1.6.7"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "true",
     "release": "np"

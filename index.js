@@ -1,6 +1,5 @@
 var xml = require('xml-js')
 var assert = require('nanoassert')
-var parseAuthor = require('parse-author')
 
 function getNodeByName(name, elements) {
   for (element of elements) {
