@@ -4,8 +4,8 @@
   "description": "Sync Cordova's XML files with your package.json mo bettah (Updated Fork of https://github.com/nphyatt/sync-cordova-xml/issues)",
   "main": "index.js",
   "dependencies": {
-    "minimist": "^1.2.0",
-    "xml-js": "^1.6.7"
+    "minimist": "^1.2.8",
+    "xml-js": "^1.6.11"
   },
   "scripts": {
     "test": "true",
