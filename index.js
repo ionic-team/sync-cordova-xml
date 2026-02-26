@@ -1,5 +1,4 @@
 var xml = require('xml-js')
-var assert = require('nanoassert')
 
 function getNodeByName(name, elements) {
   for (element of elements) {
@@ -32,8 +31,13 @@ function upsertTextNode(parent, name, text) {
 }
 
 module.exports = function (jsonObj, xmlStr, mode) {
-  assert(jsonObj != null)
-  assert(typeof xmlStr === 'string')
+  if (jsonObj == null) {
+    throw new Error('jsonObj must not be null')
+  }
+
+  if (typeof xmlStr !== 'string') {
+    throw new TypeError('xmlStr must be a string')
+  }
 
   var xmlDoc = new xml.xml2js(xmlStr)
 
